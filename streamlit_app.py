@@ -37,7 +37,7 @@ streamlit.dataframe(my_data_rows)
 
 
 ## challenge 1
-add_my_fruit = streamlit.text_input('What fruit would you like to add',my_fruit_list)
+add_my_fruit = streamlit.text_input('What fruit would you like to add',"the fruit load list contains")
 streamlit.write('Thanks for adding', add_my_fruit)
 
 
